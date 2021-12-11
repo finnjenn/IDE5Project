@@ -32,8 +32,20 @@ public class Main implements Callable{
         aubMid.setName("Auburn Middle School");
         shawMid.setName("Shawsville Middle School");
         //Setting enrollment for each middle school
+        cburgMid.setEnrollment();
+        bburgMid.setEnrollment();
+        aubMid.setEnrollment();
+        shawMid.setEnrollment();
         //Setting names for each elementary school
+        cburgElm.setName("Christiansburg Elementary School");
+        pricesF.setName("Prices Fork Elementary School");
+        aubElm.setName("Auburn Elementary School");
+        eastMelm.setName("Eastern Montgomery Elementary School");
         //Setting enrollment for each elementary school
+        cburgElm.setEnrollment();
+        pricesF.setEnrollment();
+        aubMid.setEnrollment();
+        eastMelm.setEnrollment();
         //Main Output
         System.out.println("School System: " + SYSTEMNAME); //outputs string constants from Callable interface
         System.out.println("Superintendent: " + SUPERI);
