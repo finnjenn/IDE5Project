@@ -23,12 +23,18 @@ public class Main implements Callable{
         System.out.println("School System: " + SYSTEMNAME); //outputs string constants from Callable interface
         System.out.println("Superintendent: " + SUPERI);
         System.out.printf("Phone Number - " + PHONENUM);
+
         System.out.println(cburgHigh.getName());
         System.out.println("Enrollment is " + cburgHigh.getEnrollment());
         cburgHigh.describeLevel();
+
         System.out.println(bburgHigh.getName());
         System.out.println("Enrollment is " + bburgHigh.getEnrollment());
         bburgHigh.describeLevel();
+
+        System.out.println(aubHigh.getName());
+        System.out.println("Enrollment is " + aubHigh.getEnrollment());
+        aubHigh.describeLevel();
     }
 }
 /* I need a display info method for every school class
