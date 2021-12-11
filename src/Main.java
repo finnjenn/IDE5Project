@@ -2,11 +2,19 @@ public class Main implements Callable{
 
     public static void main(String[] args) {
 	// write your code here
-        //Creating new object for each high school
+        //Creating new object for each high school, middle school, and elementary school
         Highschool cburgHigh = new Highschool();
         Highschool bburgHigh = new Highschool();
         Highschool aubHigh = new Highschool();
         Highschool eastHigh = new Highschool();
+        Middleschool cburgMid = new Middleschool();
+        Middleschool bburgMid = new Middleschool();
+        Middleschool aubMid = new Middleschool();
+        Middleschool shawMid = new Middleschool();
+        Elementaryschool cburgElm = new Elementaryschool();
+        Elementaryschool pricesF = new Elementaryschool();
+        Elementaryschool aubElm = new Elementaryschool();
+        Elementaryschool eastMelm = new Elementaryschool();
 
         //Setting names for each high school
         cburgHigh.setName("Christiansburg High School");
@@ -19,6 +27,13 @@ public class Main implements Callable{
         aubHigh.setEnrollment(414);
         eastHigh.setEnrollment(289);
         //Setting names for each middle school
+        cburgMid.setName("Christiansburg Middle School");
+        bburgMid.setName("Blacksburg Middle School");
+        aubMid.setName("Auburn Middle School");
+        shawMid.setName("Shawsville Middle School");
+        //Setting enrollment for each middle school
+        //Setting names for each elementary school
+        //Setting enrollment for each elementary school
         //Main Output
         System.out.println("School System: " + SYSTEMNAME); //outputs string constants from Callable interface
         System.out.println("Superintendent: " + SUPERI);
