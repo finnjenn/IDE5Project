@@ -71,9 +71,9 @@ public class Main implements Callable{
         System.out.printf("Phone Number - " + PHONENUM);
 
         System.out.println(cburgHigh.getName());
-        System.out.println("Enrollment is " + cburgHigh.getEnrollment());
-        cburgHigh.describeLevel();
-
+        System.out.println("Enrollment is " + cburgHigh.getEnrollment()); // access parent method getname and get enrollment
+        cburgHigh.describeLevel();                                          //out put both variables and call describe level method
+                                                                            // its the same for the rest of the object calls 
         System.out.println(bburgHigh.getName());
         System.out.println("Enrollment is " + bburgHigh.getEnrollment());
         bburgHigh.describeLevel();
