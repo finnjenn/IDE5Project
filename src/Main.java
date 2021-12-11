@@ -32,20 +32,20 @@ public class Main implements Callable{
         aubMid.setName("Auburn Middle School");
         shawMid.setName("Shawsville Middle School");
         //Setting enrollment for each middle school
-        cburgMid.setEnrollment();
-        bburgMid.setEnrollment();
-        aubMid.setEnrollment();
-        shawMid.setEnrollment();
+        cburgMid.setEnrollment(832);
+        bburgMid.setEnrollment(959);
+        aubMid.setEnrollment(574);
+        shawMid.setEnrollment(218);
         //Setting names for each elementary school
         cburgElm.setName("Christiansburg Elementary School");
         pricesF.setName("Prices Fork Elementary School");
         aubElm.setName("Auburn Elementary School");
         eastMelm.setName("Eastern Montgomery Elementary School");
         //Setting enrollment for each elementary school
-        cburgElm.setEnrollment();
-        pricesF.setEnrollment();
-        aubMid.setEnrollment();
-        eastMelm.setEnrollment();
+        cburgElm.setEnrollment(388);
+        pricesF.setEnrollment(459);
+        aubElm.setEnrollment(552);
+        eastMelm.setEnrollment(456);
         //Main Output
         System.out.println("School System: " + SYSTEMNAME); //outputs string constants from Callable interface
         System.out.println("Superintendent: " + SUPERI);
@@ -62,6 +62,44 @@ public class Main implements Callable{
         System.out.println(aubHigh.getName());
         System.out.println("Enrollment is " + aubHigh.getEnrollment());
         aubHigh.describeLevel();
+
+        System.out.println(eastHigh.getName());
+        System.out.println("Enrollment is " + eastHigh.getEnrollment());
+        eastHigh.describeLevel();
+
+        System.out.println(cburgMid.getName());
+        System.out.println("Enrollment is " + cburgMid.getEnrollment());
+        cburgMid.describeLevel();
+
+        System.out.println(bburgMid.getName());
+        System.out.println("Enrollment is " + bburgMid.getEnrollment());
+        bburgMid.describeLevel();
+
+        System.out.println(aubMid.getName());
+        System.out.println("Enrollment is " + aubMid.getEnrollment());
+        aubMid.describeLevel();
+
+        System.out.println(shawMid.getName());
+        System.out.println("Enrollment is " + shawMid.getEnrollment());
+        shawMid.describeLevel();
+
+        System.out.println(cburgElm.getName());
+        System.out.println("Enrollment is " + cburgElm.getEnrollment());
+        cburgElm.describeLevel();
+
+        System.out.println(pricesF.getName());
+        System.out.println("Enrollment is " + pricesF.getEnrollment());
+        pricesF.describeLevel();
+
+        System.out.println(aubElm.getName());
+        System.out.println("Enrollment is " + aubElm.getEnrollment());
+        aubElm.describeLevel();
+
+        System.out.println(eastMelm.getName());
+        System.out.println("Enrollment is " + eastMelm.getEnrollment());
+        eastMelm.describeLevel();
+
+
     }
 }
 /* I need a display info method for every school class

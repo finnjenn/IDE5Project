@@ -1,5 +1,5 @@
 public class Elementaryschool extends School {
     public void describeLevel() {
-        System.out.println("This is a high school serving grades K through 5\n");
+        System.out.println("This is an elementary school serving grades K through 5\n");
     }
 }
